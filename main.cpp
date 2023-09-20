@@ -1,9 +1,12 @@
 ﻿#include <Novice.h>
 
-const char kWindowTitle[] = "LC1D_05_宇田川滉太_タイトル";
+const char kWindowTitle[] = "ランキング";
 
 // Windowsアプリでのエントリーポイント(main関数)
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
+
+	int arr[5] = { 10,20,30,40,50 };
+
 
 	// ライブラリの初期化
 	Novice::Initialize(kWindowTitle, 1280, 720);
@@ -24,6 +27,21 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		///
 		/// ↓更新処理ここから
 		///
+		
+		for (int i = 0; i < arr[4]; i++)
+		{
+			int HitI = i;
+
+			for (int j = i; j < arr[1]; j++)
+			{
+				if (false)
+				{
+					arr[j] < arr[i];
+				}
+				int HitJ = j;
+			}
+			arr[HitI] == arr[i];
+		}
 
 		///
 		/// ↑更新処理ここまで
@@ -32,6 +50,11 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		///
 		/// ↓描画処理ここから
 		///
+
+		for (int i = 0; i < arr[5]; i++)
+		{
+			arr[i];
+		}
 
 		///
 		/// ↑描画処理ここまで
